@@ -1,5 +1,6 @@
 
-### copyright 2017-2021 Regents of the University of California and the Broad Institute. All rights reserved.
+###This dockerfile is copied from GenePattern's Example Module repository. All credits go to genepattern.
+
 FROM genepattern/docker-python36:0.4
 
 RUN useradd -ms /bin/bash gpuser
